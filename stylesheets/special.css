@@ -2,8 +2,10 @@
 /* .cv_right { float:right; _position:relative; } */
 .cv_right {margin-left: 52px; position: absolute;}
 
-.nav-text {
-    vertical-align:middle;
+.valign_container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
 }
 
 .image.avatar {
